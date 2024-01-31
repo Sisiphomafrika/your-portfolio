@@ -19,18 +19,37 @@
 
 <style>
   .about {
-    background-color: #f8f9fa;
+    background: linear-gradient(to right, #3498db, #1abc9c);
+    color: #ecf0f1;
     padding: 50px 0;
+    animation: fadeIn 1.5s ease-out;
   }
 
   .section-title {
-    color: #007bff;
+    font-size: 3em;
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: bold;
     margin-bottom: 30px;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
   .lead {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #555;
+    font-size: 1.3em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 </style>

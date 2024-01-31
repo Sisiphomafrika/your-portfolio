@@ -2,9 +2,10 @@
     <footer>
       <p>&copy; {{ currentYear }} Sisipho Mafrika's Portfolio. </p>
      <div>
+      <i class="bi bi-github">Social</i>
         <a href="https://github.com/Sisiphomafrika" class="center"><img src="" alt="GitHub"></a>
         <a href="https://wa.me/message/6JUOQHZ3KU37O1" class="center"><img src="" alt="Email"></a>
-        <a href="https://wa.me/message/6JUOQHZ3KU37O1" class="center"><img src="" alt="WhatsApp"></a>
+        <a href="https://wa.me/message/6JUOQHZ3KU37O1" class="center"><img src="<a href=" alt="WhatsApp"></a>
      </div>
     </footer>
   </template>
