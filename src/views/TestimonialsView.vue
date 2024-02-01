@@ -29,5 +29,17 @@ export default{
   border: 1px solid #ccc; 
   background-color: #199286;
  }
-
+ h2{
+  text-align: center;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 </style>

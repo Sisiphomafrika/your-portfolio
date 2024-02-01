@@ -77,7 +77,7 @@
 
 }
 
-/* .view-button:hover {
+ .view-button:hover {
   background-color: #0056b3;
-} */
+} 
 </style>
